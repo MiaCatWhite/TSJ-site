@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css\bootstrap-4.1.2\bootstrap.min.css" />
+    <link href="plugins\font-awesome-4.7.0\css\font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="plugins\OwlCarousel2-2.3.4\owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="plugins\OwlCarousel2-2.3.4\owl.theme.default.css" />
+    <link rel="stylesheet" type="text/css" href="plugins\OwlCarousel2-2.3.4\animate.css" />
+    <link href="plugins\jquery-datepicker\jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="plugins\colorbox\colorbox.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css\main_styles.css" />
+    <link rel="stylesheet" type="text/css" href="css\responsive.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="super_container">
+        <!-- Header -->
+
+        <header class="header">
+            <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                <div class="logo"><a href="#">Наш Дом</a></div>
+                <div class="ml-auto d-flex flex-row align-items-center justify-content-start">
+                    <nav class="main_nav">
+                        <ul class="d-flex flex-row align-items-start justify-content-start">
+                            <li class="active"><a href="index.html">Главная</a></li>
+                            <li class="MyMenu"><a href="AboutUs.html">О нас</a>
+                                <ul class="dropdown">
+                                    <li><a>Новости и объявления</a></li>
+                                    <li><a>Наше ТСЖ</a></li>
+                                    <li><a>Сотрудники</a></li>
+                                    <li><a>Контактная информация</a></li>
+                                    <li><a>Деятельность ТСЖ</a></li>
+                                    <li><a>Вакансии</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Документы</a></li>
+                            <li><a href="#">Тарифы</a></li>
+                            <li><a href="#">Фото и видео</a></li>
+                        </ul>
+                    </nav>
+                    <div class="book_button"><a href="#">Войти</a></div>
+                    <div class="Regbook_button"><a href="#">Регистрация</a></div>
+                    <div class="header_phone d-flex flex-row align-items-center justify-content-center">
+                        <img src="images/phone.png" alt="" />
+                        <span>0183-12345678</span>
+                    </div>
+
+                    <!-- Hamburger Menu -->
+                    <div class="hamburger">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Menu -->
+
+        <div class="menu trans_400 d-flex flex-column align-items-end justify-content-start">
+            <div class="menu_close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div class="menu_content">
+                <nav class="menu_nav text-right">
+                    <ul>
+                        <li class="active"><a href="index.html">Главная</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Документы</a></li>
+                        <li><a href="#">Тарифы</a></li>
+                        <li><a href="#">Фото и видео</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu_extra">
+                <div class="menu_book text-right"><a href="#">Войти</a></div>
+                <div class="menu_book text-right"><a href="#">Регистрация</a></div>
+                <div class="menu_phone d-flex flex-row align-items-center justify-content-center">
+                    <img src="images/phone-2.png" alt="" />
+                    <span>0183-12345678</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Home -->
+
+        <div class="home">
+            <div class="home_slider_container">
+                <div class="owl-carousel owl-theme home_slider">
+                    <!-- Slide -->
+                    <div class="slide">
+                        <div class="background_image" style="background-image: url(MyImages/Citi2.jpg);"></div>
+                        <div class="home_container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="home_content text-center">
+                                            <div class="home_title">
+                                                Пять домов в управлении нашей компании!
+                                            </div>
+                                            <div class="booking_form_container">
+                                                <form action="#" class="booking_form">
+                                                    <div
+                                                        class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
+                                                        <div
+                                                            class="booking_input_container d-flex flex-lg-row flex-column align-items-start justify-content-start">
+                                                        </div>
+                                                    </div>
+                                                    <button class="booking_button trans_200">
+                                                        О нас
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide -->
+                    <div class="slide">
+                        <div class="background_image" style="background-image: url(MyImages/Citi3.jpg);"></div>
+                        <div class="home_container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="home_content text-center">
+                                            <div class="home_title">
+                                                145 305 квадратных метров площади в управлении нашей
+                                                компании!
+                                            </div>
+                                            <div class="booking_form_container">
+                                                <form action="#" class="booking_form">
+                                                    <div
+                                                        class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
+                                                        <div
+                                                            class="booking_input_container d-flex flex-lg-row flex-column align-items-start justify-content-start">
+                                                        </div>
+                                                    </div>
+                                                    <button class="booking_button trans_200">
+                                                        О нас
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide -->
+                    <div class="slide">
+                        <div class="background_image" style="background-image: url(MyImages/Citi4.jpg);"></div>
+                        <div class="home_container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="home_content text-center">
+                                            <div class="home_title">
+                                                Двадцать три сотрудника в коллективе нашей компании!
+                                            </div>
+                                            <div class="booking_form_container">
+                                                <form action="#" class="booking_form">
+                                                    <div
+                                                        class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
+                                                        <div
+                                                            class="booking_input_container d-flex flex-lg-row flex-column align-items-start justify-content-start">
+                                                        </div>
+                                                    </div>
+                                                    <button class="booking_button trans_200">
+                                                        О нас
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Home Slider Dots -->
+                <div class="home_slider_dots_container">
+                    <div class="home_slider_dots">
+                        <ul id="home_slider_custom_dots"
+                            class="home_slider_custom_dots d-flex flex-row align-items-start justify-content-start">
+                            <li class="home_slider_custom_dot active">01.</li>
+                            <li class="home_slider_custom_dot">02.</li>
+                            <li class="home_slider_custom_dot">03.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- About -->
+
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about_title">
+                            <h2>Основание</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row about_row">
+
+                    <!-- About Content -->
+                    <div class="col-lg-6">
+                        <div class="about_content">
+                            <div class="about_text">
+                                <p>ЖСК «Митино-24» организован 25 декабря 1993 года.
+                                    Дом заселили жители, которые прибыли со всех районов г.Москвы и являлись
+                                    очередниками по улучшению жилищных условий.
+                                    Благодаря правлению ЖСК была создана группа инициативных жителей дома, которая
+                                    помогает решать такие вопросы, как :озеленение двора,приведение в порядок
+                                    подъездов,безопасность проживания и необходимый по дому ремонт.
+                                    В штате ЖСК числятся 3 сотрудника : председатель, бухгалтер и комендант, которые
+                                    всегда откликаются на идеи, инициативу и помощь активных жильцов дома.
+                                    ЖСК «Митино-24» ощущает большую поддержку со стороны Управы района Митино и отдела
+                                    благоустройства «Инженерной службы района Митино».</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- About Images -->
+                    <div class="col-lg-6">
+                        <div class="about_images d-flex flex-row align-items-start justify-content-between flex-wrap">
+                            <img src="images/about.jpg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Split Section Right -->
+
+        <div class="split_section_right container_custom">
+            <div class="container">
+                <div class="row row-xl-eq-height">
+
+                    <div class="col-xl-6 order-xl-1 order-2">
+                        <div class="split_section_image">
+                            <img src="images/milestones.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 order-xl-2 order-1">
+                        <div class="split_section_right_content">
+                            <div class="split_section_title">
+                                <h1>Работа</h1>
+                            </div>
+                            <div class="split_section_text">
+                                <p>Они оказывают действенную помощь в обустройстве детской площадки и дворовой
+                                    территории для жителей многоквартирного дома. Регулярно проводится текущий ремонт
+                                    подъездов дома. Во всех лифтовых холлах на полу уложена красивая плитка. За период
+                                    проживания в доме был произведен капитальный ремонт кровли, электрохозяйства,
+                                    входных групп первых этажей и окрашен фасад. В соответствии с федеральным Законом
+                                    «Об энергосбережении» №261 от 23.11.2009г. произведена замена на всех этажах старых
+                                    окон на пластиковые стеклопакеты. В 2006 году за счет средств собственников ЖСК
+                                    установлена система видеонаблюдения. 12 видеокамер контролируют двор и подъезды
+                                    дома, одновременно сигнал с видеокамер подается в каждую квартиру жильцов дома по
+                                    телевизионным каналам: можно сразу узнать, кто стучится в дверь. Вся информация
+                                    записывается и выведена на диспетчерский пункт в правление ЖСК. С помощью видеокамер
+                                    проще контролировать общественный порядок в доме и на территории . Все эти годы
+                                    жители обустраивают ,украшают и наводят порядок на территории двора. С ранней весны
+                                    до поздней осени своими красками радуют цветы, высаженные на клумбах. После таяния
+                                    снега распускаются крокусы, тюльпаны и нарциссы, примула и гравилат. Эстафету
+                                    цветения принимают купальница, лилейники , ирисы и анемоны. На смену им приходят
+                                    пионы, флоксы,астильбы и однолетки, выращенные на подоконниках жильцами дома. До
+                                    самых заморозков цветут бархатцы, очиток , астры и ромашки. Создается впечатление
+                                    непрерывного цветения.</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Split Section Left -->
+
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about_title">
+                            <h2>Рассвет</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row about_row">
+
+                    <!-- About Content -->
+                    <div class="col-lg-6">
+                        <div class="about_content">
+                            <div class="about_text">
+                                <p>Со всех подъездов свисают кусты дикого винограда. В 2006 году ЖСК занял 1 место на
+                                    районном этапе конкурса «Московский дворик» в номинации «Лучший двор,
+                                    благоустроенный с участием жителей», а в 2008 году в номинации «Цветы у дома» занял
+                                    2-ое место по району. Жителям дома понравилось побеждать, и они успешно
+                                    поучаствовали еще и в конкурсе «Улучшаем свое жилище-2008» где в номинации «Большой
+                                    личный вклад в содержание, обеспечение безопасности многоквартирного дома и
+                                    благоустройства территории», заняв на районном этапе 1-е место добились победы на
+                                    уровне города Москвы. Управой района Митино эффективная работа ЖСК отмечена
+                                    многочисленными грамотами и призами.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- About Images -->
+                    <div class="col-lg-6">
+                        <div class="about_images d-flex flex-row align-items-start justify-content-between flex-wrap">
+                            <img src="images/about.jpg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <!-- Testimonials -->
+
+        <div class="testimonials">
+            <div class="parallax_background parallax-window" data-parallax="scroll"
+                data-image-src="images/testimonials.jpg" data-speed="0.8"></div>
+            <div class="testimonials_overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="testimonials_slider_container">
+
+                            <!-- Testimonials Slider -->
+                            <div class="owl-carousel owl-theme test_slider">
+
+                                <!-- Slide -->
+                                <div class="test_slider_item text-center">
+                                    <div
+                                        class="rating rating_5 d-flex flex-row align-items-start justify-content-center">
+                                    </div>
+                                    <div class="testimonial_title"><a href="#">Неплохо</a></div>
+                                    <div class="testimonial_text">
+                                        <p>Ну, прям так, чтобы очень, но нормально</p>
+                                    </div>
+                                    <div class="testimonial_image"><img src="images/user_1.jpg" alt=""></div>
+                                    <div class="testimonial_author"><a href="#">Катя Петрушкина</a>, Сызрань</div>
+                                </div>
+
+                                <!-- Slide -->
+                                <div class="test_slider_item text-center">
+                                    <div
+                                        class="rating rating_5 d-flex flex-row align-items-start justify-content-center">
+                                    </div>
+                                    <div class="testimonial_title"><a href="#">Жить можно.</a></div>
+                                    <div class="testimonial_text">
+                                        <p>Наверное. Я не знаю. Когда уже обед?</p>
+                                    </div>
+                                    <div class="testimonial_image"><img src="images/user_2.jpg" alt=""></div>
+                                    <div class="testimonial_author"><a href="#">Миша Медведев</a>, Пермь</div>
+                                </div>
+
+                                <!-- Slide -->
+                                <div class="test_slider_item text-center">
+                                    <div
+                                        class="rating rating_5 d-flex flex-row align-items-start justify-content-center">
+                                    </div>
+                                    <div class="testimonial_title"><a href="#">Лучше, чем в Омске</a></div>
+                                    <div class="testimonial_text">
+                                        <p>А еще, дешевле. Ага.</p>
+                                    </div>
+                                    <div class="testimonial_image"><img src="images/user_3.jpg" alt=""></div>
+                                    <div class="testimonial_author"><a href="#">Вова Фамилия</a>, Омск</div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="footer_content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="footer_logo_container text-center">
+                                <div class="footer_logo">
+                                    <a href="#"></a>
+                                    <div>Наш Дом</div>
+                                    <div>С 2020 года</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row footer_row">
+
+                        <!-- Address -->
+                        <div class="col-lg-3">
+                            <div class="footer_title">Адрес</div>
+                            <div class="footer_list">
+                                <ul>
+                                    <li>г. Москва</li>
+                                    <li>ул. Митинская</li>
+                                    <li>дом 17, корп. 1</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Reservations -->
+                        <div class="col-lg-3">
+                            <div class="footer_title">Контакты</div>
+                            <div class="footer_list">
+                                <ul>
+                                    <li>Телефон: 495-751-85-05</li>
+                                    <li>Email: OurHome@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="styles/bootstrap-4.1.2/popper.js"></script>
+    <script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+    <script src="plugins/greensock/TweenMax.min.js"></script>
+    <script src="plugins/greensock/TimelineMax.min.js"></script>
+    <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="plugins/greensock/animation.gsap.min.js"></script>
+    <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="plugins/progressbar/progressbar.min.js"></script>
+    <script src="plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="plugins/jquery-datepicker/jquery-ui.js"></script>
+    <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

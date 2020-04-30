@@ -15,3 +15,20 @@ https://www.hostcms.ru/shop/market/templates/services/uk-adptive/
 http://kvado.ru/site
 
 https://shabloner.ru/service/1437-shablon-saita-tszh-dlia-wordpress
+
+
+
+.main_nav ul li:not(:last-of-type) {
+	margin-right: 49px;
+}
+
+.main_nav ul li a {
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.main_nav ul li a:hover,
+.main_nav ul li.active a {
+	color: #008cba;
+}
